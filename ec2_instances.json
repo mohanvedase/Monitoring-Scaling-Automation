@@ -1,0 +1,34 @@
+[
+  {
+    "InstanceId": "i-018a931e11f829ffa",
+    "InstanceType": "t2.micro",
+    "ImageId": "ami-0f5ee92e2d63afc18",
+    "VpcId": "vpc-0c5a8881cff1146d8",
+    "KeyName": "boto3_G4",
+    "Name": "backendusingboto3_1_G4"
+  },
+  {
+    "InstanceId": "i-07a9e4f76c4ff8cdd",
+    "InstanceType": "t2.micro",
+    "ImageId": "ami-0f5ee92e2d63afc18",
+    "VpcId": "vpc-0c5a8881cff1146d8",
+    "KeyName": "boto3_G4",
+    "Name": "backendusingboto3_2_G4"
+  },
+  {
+    "InstanceId": "i-01dec6d7647f9cf8e",
+    "InstanceType": "t2.micro",
+    "ImageId": "ami-0f5ee92e2d63afc18",
+    "VpcId": "vpc-0c5a8881cff1146d8",
+    "KeyName": "boto3_G4",
+    "Name": "frontendusingboto3_1_G4"
+  },
+  {
+    "InstanceId": "i-0ac4c2ba89c9ffc53",
+    "InstanceType": "t2.micro",
+    "ImageId": "ami-0f5ee92e2d63afc18",
+    "VpcId": "vpc-0c5a8881cff1146d8",
+    "KeyName": "boto3_G4",
+    "Name": "frontendusingboto3_2_G4"
+  }
+]

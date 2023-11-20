@@ -1,0 +1,39 @@
+{
+  "BackendInstance": {
+    "1stInstanceName": "backendusingboto3_1_G4",
+    "2ndInstanceName": "backendusingboto3_2_G4",
+    "ImageId": "ami-0f5ee92e2d63afc18",
+    "KeyName": "boto3_G4",
+    "ApplicationLB": {
+      "ApplicationLBName": "applb-backend-boto3-G4",
+      "TargetGroup": "tg-backend-boto3-G4",
+      "SecurityGroups": "sg-0103a917e74448c29"
+    }
+  },
+  "FrontendInstance": {
+    "1stInstanceName": "frontendusingboto3_1_G4",
+    "2ndInstanceName": "frontendusingboto3_2_G4",
+    "ImageId": "ami-0f5ee92e2d63afc18",
+    "KeyName": "boto3_G4",
+    "ApplicationLB": {
+      "ApplicationLBName": "applb-frontend-boto3-G4",
+      "TargetGroup": "tg-frontend-boto3-G4",
+      "SecurityGroups": "sg-0103a917e74448c29"
+    }
+  },
+  "LaunchTemplate": {
+    "TemplateName": "lt-boto3-G4",
+    "TemplateId": "lt-0348013d26890e65c",
+    "SecurityGroupIds": "sg-0103a917e74448c29",
+    "ImageId": "ami-0f5ee92e2d63afc18",
+    "InstanceType": "t2.micro",
+    "Key": "boto3_G4"
+  },
+  "AutoScaling": {
+    "AutoScalingName": "as-boto3-G4",
+    "MinSize": 2,
+    "MaxSize": 3,
+    "DesiredCapacity": 2,
+    "InstanceType": "t2.micro"
+  }
+}
